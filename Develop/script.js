@@ -19,7 +19,8 @@ function writePassword() {
     var lowercases = confirm ("Would yoou like to include owercases in your password?");
     var Specialcharacters = confirm ("Would you like to include special characters in your password?");
   
-  
+  if (numbers)
+  returnArray = returnArray.concat(NumbArray);
  
 }
 
