@@ -16,4 +16,4 @@ I used the join method to a return a concatenated string and used a for loop so 
   return inputArray.join("") ;
   }
 
-  
+  https://abdul2k24.github.io/Password-Generator-helper/
