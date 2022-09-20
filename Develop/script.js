@@ -11,7 +11,7 @@ function writePassword() {
   var returnArray = [];
   var inputArray = [];
   
-  uppercaseArray [1]
+  UppercaseArray [1]
   
     var numCharacter = prompt ("How many Characters do you want between 8 and 128?");
     var numbers = confirm (" Would you like numbers in your password?");
@@ -22,5 +22,18 @@ function writePassword() {
   if (numbers)
   returnArray = returnArray.concat(NumbArray);
  
+  if (uppercases){
+    returnArray = returnArray.concat(UppercaseArray);
+  
+  }
+  
+  if (lowercases){
+    returnArray = returnltArray.concat(LowercaseArray);
+  
+  }
+  if (Specialcharacters){
+    returnArray = returnArray.concat(SpecialcharacterArray);
+  }
+  console.log(resultArray) 
 }
 
